@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Web_API.Data;
-using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace Web_API.Controllers
 {

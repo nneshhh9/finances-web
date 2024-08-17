@@ -1,14 +1,16 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using System.Text.Json.Serialization;
+using Newtonsoft.Json;
 
 namespace Web_API.Models
 {
     public class Type
     {
         public Guid Id { get; set; }
+        
         [Required]
         public string Name { get; set; }
-        [Newtonsoft.Json.JsonIgnore]
+        
+        [JsonIgnore]
         public virtual List<Transaction> Transactions { get; set; }
     }
 }
