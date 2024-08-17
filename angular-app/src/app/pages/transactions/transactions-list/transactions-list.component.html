@@ -1,0 +1,41 @@
+<div class="main-container">   
+    <div class="search-bar-container">
+        <div class="field">
+            <p class="control has-icons-left">
+                <input class="input is-rounded" type="text" placeholder="Search For" #input (keyup.enter)="searchTransactions(input.value)">
+                <span class="icon is-small is-left">
+                    <i class="fas fa-search"></i>
+                </span>
+            </p>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="datetime-field">
+            <label class="filterText">Date</label>
+            <div class="control">
+                <input class="date-picker" id="dateStart" name="date" type="date">
+            </div>
+
+            <label class="separator">-</label>
+            <div class="control">
+                <input class="date-picker" id="dateEnd" name="date" type="date">
+            </div>
+            <button class="search button" type="submit" (click)="search(input.value)">Search</button>
+        </div>
+    </div>
+
+    <span class="loader" *ngIf="isLoading"></span>
+        
+    <div class="transactions-list" [@listAnim]>
+        <app-transaction-card *ngFor = "let transaction of transactions;"
+                            (delete)="deleteTransaction(transaction)"
+                            transactionId="{{transaction}}"
+                            @itemAnim></app-transaction-card>
+    </div>
+        
+        
+    <button class="button floating-add-button is-primary" routerLink="../new">
+        +Add
+    </button>    
+</div>

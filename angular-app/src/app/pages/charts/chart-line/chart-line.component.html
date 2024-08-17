@@ -1,0 +1,28 @@
+<div class="card">
+      <div class="datetime-field">
+          <label class="filterText">Date</label>
+          <div class="control">
+              <input class="date-picker" id="dateStart" name="date" type="date">
+          </div>
+
+          <label class="separator">-</label>
+          <div class="control">
+              <input class="date-picker" id="dateEnd" name="date" type="date">
+          </div>
+          <button class="search button" type="submit" (click)="search()">Search</button>
+      </div>
+</div>
+<ngx-charts-line-chart
+      [view]="[700,400]"
+    
+      [legend]="legend"
+      [showXAxisLabel]="showXAxisLabel"
+      [showYAxisLabel]="showYAxisLabel"
+      [xAxis]="xAxis"
+      [yAxis]="yAxis"
+      [xAxisLabel]="xAxisLabel"
+      [yAxisLabel]="yAxisLabel"
+      [timeline]="timeline"
+      [results]="lineChartData"
+      >
+</ngx-charts-line-chart>
