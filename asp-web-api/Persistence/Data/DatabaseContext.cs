@@ -1,6 +1,6 @@
 ﻿using Application.Models;
 using Microsoft.EntityFrameworkCore;
-using Type = System.Type;
+using Type = Application.Models.Type;
 
 namespace Persistence.Data;
 

@@ -11,49 +11,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75052ad4-f299-4f79-94e5-de51a79b8406" name="Changes" comment="add project Tests, change name asp.net project">
-      <change afterPath="$PROJECT_DIR$/Api/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/obj/rider.project.restore.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/Enums/ApiError.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/Module.Presentation.Tests/Validators/Test.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Web-API/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Web-API/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web-API/Controllers/AuthController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Controllers/AuthController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web-API/Controllers/CategoriesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Controllers/CategoriesController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web-API/Controllers/ChartsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Controllers/ChartsController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web-API/Controllers/GoalsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Controllers/GoalsController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web-API/Controllers/MinIOController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Controllers/MinIOController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web-API/Controllers/TransactionsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Controllers/TransactionsController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web-API/Controllers/TypesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Controllers/TypesController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web-API/Controllers/UsersController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Controllers/UsersController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web-API/Data/DatabaseContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/Data/DatabaseContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web-API/Migrations/20231212203215_DbMigration.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/Migrations/20231212203215_DbMigration.Designer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web-API/Migrations/20231212203215_DbMigration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/Migrations/20231212203215_DbMigration.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web-API/Migrations/DatabaseContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/Migrations/DatabaseContextModelSnapshot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web-API/Models/Category.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Models/Category.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web-API/Models/Goal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Models/Goal.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web-API/Models/Transaction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Models/Transaction.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web-API/Models/Type.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Models/Type.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web-API/Models/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Models/User.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web-API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web-API/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web-API/Web-API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Api.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web-API/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/Api/appsettings.Development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web-API/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Api/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web-API/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web-API/obj/Debug/net6.0/Web-API.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api/obj/Debug/net6.0/Web-API.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web-API/obj/Debug/net6.0/Web-API.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Api/obj/Debug/net6.0/Web-API.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web-API/obj/Debug/net6.0/Web-API.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Api/obj/Debug/net6.0/Web-API.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web-API/obj/Debug/net6.0/Web-API.GlobalUsings.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api/obj/Debug/net6.0/Web-API.GlobalUsings.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web-API/obj/Debug/net6.0/Web-API.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Api/obj/Debug/net6.0/Web-API.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web-API/obj/Debug/net6.0/Web-API.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Api/obj/Debug/net6.0/Web-API.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web-API/obj/Web-API.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Api/obj/Web-API.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web-API/obj/Web-API.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Api/obj/Web-API.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web-API/obj/Web-API.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Api/obj/Web-API.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web-API/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Api/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web-API/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Api/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web-API/obj/project.packagespec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web-API/obj/rider.project.restore.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/finances-web-api.sln" beforeDir="false" afterPath="$PROJECT_DIR$/finances-web-api.sln" afterDir="false" />
+    <list default="true" id="75052ad4-f299-4f79-94e5-de51a79b8406" name="Changes" comment="fix">
+      <change beforePath="$PROJECT_DIR$/Persistence/Persistence.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/Persistence.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/obj/Debug/net8.0/Persistence.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/obj/Debug/net8.0/Persistence.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/obj/Debug/net8.0/Persistence.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/obj/Debug/net8.0/Persistence.AssemblyInfoInputs.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +32,8 @@
     <setting file="file://$PROJECT_DIR$/Api/Controllers/MinIOController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api/Controllers/TransactionsController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Api/obj/Debug/net6.0/Web-API.GlobalUsings.g.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Api/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Persistence/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Tests/Module.Presentation.Tests/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Tests/UnitTest1.cs" root0="SKIP_HIGHLIGHTING" />
@@ -153,6 +116,50 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="Persistence/Dockerfile" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="persistence" />
+          <option name="containerName" value="persistence" />
+          <option name="contextFolderPath" value="C:\Project\FullStack\finances-web\asp-web-api" />
+          <option name="portBindings">
+            <list>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="8080" />
+                <option name="hostIp" value="127.0.0.1" />
+                <option name="hostPort" value="8080" />
+              </DockerPortBindingImpl>
+            </list>
+          </option>
+          <option name="sourceFilePath" value="Persistence/Dockerfile" />
+        </settings>
+      </deployment>
+      <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -180,7 +187,23 @@
       <option name="project" value="LOCAL" />
       <updated>1723922627836</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="разбил проект на проекты, подправил зависимости, модели, контроллеры, установил все nuget">
+      <option name="closed" value="true" />
+      <created>1723928902823</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1723928902823</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fix">
+      <option name="closed" value="true" />
+      <created>1723929020842</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1723929020842</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,6 +215,8 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="fix Models and delete using in Controller files" />
     <MESSAGE value="add project Tests, change name asp.net project" />
-    <option name="LAST_COMMIT_MESSAGE" value="add project Tests, change name asp.net project" />
+    <MESSAGE value="разбил проект на проекты, подправил зависимости, модели, контроллеры, установил все nuget" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
 </project>

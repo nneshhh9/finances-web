@@ -1,0 +1,12 @@
+﻿services:
+  persistence:
+    image: persistence
+    build:
+      context: .
+      dockerfile: Persistence/Dockerfile
+
+  persistence-1:
+    image: persistence-1
+    build:
+      context: .
+      dockerfile: Persistence/Dockerfile

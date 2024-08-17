@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Persistence.Data;
-using Type = System.Type;
+using Type = Application.Models.Type;
 
 namespace Api.Controllers;
 
@@ -28,7 +28,7 @@ public class TypesController : Controller
     public async Task<IActionResult> AddType([FromBody] Type typeRequest)
     {
         typeRequest.Id = Guid.NewGuid();
-
+        
         await _databaseContext.Types.AddAsync(typeRequest);
         await _databaseContext.SaveChangesAsync();
 
